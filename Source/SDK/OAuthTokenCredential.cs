@@ -148,7 +148,7 @@ namespace PayPal
             }
         }
 
-        private string GenerateOAuthToken(string base64ClientId)
+        private string GenerateOAuthToken(String base64ClientId)
         {
             string response = null;
 
